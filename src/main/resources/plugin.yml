@@ -1,0 +1,8 @@
+name: Blockcode
+version: 1.0
+main: de.cubeattack.blockcode.main.Main
+api-version: 1.17
+authors: [ CubeAttack ]
+description: Wandel Blöcke in Java Code um
+commands:
+  blockcode:
