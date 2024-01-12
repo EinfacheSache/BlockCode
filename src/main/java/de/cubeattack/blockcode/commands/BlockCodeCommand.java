@@ -81,6 +81,10 @@ public class BlockCodeCommand implements CommandExecutor, TabCompleter
                             BlockCodeCommand.logger.println("build_"+ 2 +"(l,w);");
                             BlockCodeCommand.logger.println("build_"+ 3 +"(l,w);");
                             BlockCodeCommand.logger.println("build_"+ 4 +"(l,w);");
+                            BlockCodeCommand.logger.println("build_"+ 5 +"(l,w);");
+                            BlockCodeCommand.logger.println("build_"+ 6 +"(l,w);");
+                            BlockCodeCommand.logger.println("build_"+ 7 +"(l,w);");
+                            BlockCodeCommand.logger.println("build_"+ 8 +"(l,w);");
                             BlockCodeCommand.logger.println("}");
                             BlockCodeCommand.logger.println("public static void build_1(Location l, World w){");
                             int methodenCounter = 1;

@@ -1,11 +1,10 @@
 package de.cubeattack.blockcode.main;
 
+import de.cubeattack.api.libraries.org.apache.commons.io.FileUtils;
 import de.cubeattack.blockcode.config.MessagesConfig;
 import de.cubeattack.blockcode.listener.Listeners;
 import de.cubeattack.blockcode.commands.BlockCodeCommand;
 import org.bukkit.Bukkit;
-import org.bukkit.command.TabCompleter;
-import org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -20,13 +19,6 @@ public final class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
-        try {
-            FileUtils.copyToFile(this.getResource("messages.yml"), new File("plugins/messages.yml"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
 
         Main.plugin = this;
         MessagesConfig.load();
